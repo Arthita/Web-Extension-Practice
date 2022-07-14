@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  min-width: 300px;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+  border: 1.6px solid #646fd4;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-size: 15px;
+}
+input:focus {
+  background-color: #e0e9ff;
+}
+#input-btn {
+  padding: 5px 22px 5px 22px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: #242f9b;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+}
+#input-btn:active {
+  background-color: #646fd4;
+}
+#tab-btn{
+  padding: 5px 22px 5px 22px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: #242f9b;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+}
+#tab-btn:active {
+  background-color: #646fd4;
+}
+#delete-btn {
+  padding: 2.8px 15px 2.8px 15px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: white;
+  color: #242f9b;
+  border: 2.2px solid #242f9b;
+  border-radius: 3px;
+  font-size: 15px;
+}
+#delete-btn:active {
+  background-color: #d1d6fd;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  padding-top: 2px;
+}
+a {
+  color: #242f9b;
+}
